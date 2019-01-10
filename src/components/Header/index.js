@@ -26,13 +26,13 @@ class Header extends Component {
         <Title>ini title</Title>
         <NavigationLinks>
           <li>
-            <Link to="../App.js">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="../Body">Body</Link>
+            <Link to="/body">Body</Link>
           </li>
           <li>
-            <Link to="../Footer">Footer</Link>
+            <Link to="/footer">Footer</Link>
           </li>
         </NavigationLinks>
       </NavigationBar>

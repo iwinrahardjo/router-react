@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/Header";
+import Home from "./components/Home";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 
@@ -11,23 +12,9 @@ class App extends Component {
       <Router>
         <div>
           <Header />
-          <Body />
-          <Footer />
-        </div>
-      </Router>
-    );
-  }
-}
-
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div>
-          <Header />
-          <Route path="/" exact component={Header} />
-          <Route path="/about" exact component={Body} />
-          <Route path="/random" exact component={Footer} />
+          <Route path="/" exact component={Home} />
+          <Route path="/body" exact component={Body} />
+          <Route path="/footer" exact component={Footer} />
         </div>
       </Router>
     );
