@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 
-class Footer extends Component {
-  render() {
-    return (
-    <Content />;
-    )
-  }
-}
+const Footer = () => (
+  <main>
+    <p>ini footer</p>
+  </main>
+);
 
 export default Footer;

@@ -1,12 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-class Content extends Component {
-  render() {
-    return (
-        `coba`
-        `apaya`;
-    )
-  }
-}
+const Content = () => (
+  <main>
+    <p>coba</p>
+  </main>
+);
 
 export default Content;

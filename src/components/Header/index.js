@@ -1,14 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
-class Header extends Component {
-  render() {
-    return <Header />;
-  }
-}
-
-export default Header;
-
 import styled from "styled-components";
 
 const NavigationBar = styled.header`
