@@ -32,7 +32,7 @@ class Header extends Component {
             <Link to="/body">Body</Link>
           </li>
           <li>
-            <Link to="/footer">Footer</Link>
+            <Link to="/aboutus">About Us</Link>
           </li>
         </NavigationLinks>
       </NavigationBar>
