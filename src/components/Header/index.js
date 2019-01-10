@@ -7,6 +7,10 @@ const NavigationBar = styled.header`
   text-align: center;
 `;
 
+const Title = styled.h1`
+  color: blue;
+`;
+
 const NavigationLinks = styled.ul`
   text-decoration: none;
   li {
@@ -19,15 +23,16 @@ class Header extends Component {
   render() {
     return (
       <NavigationBar>
+        <Title>ini title</Title>
         <NavigationLinks>
           <li>
             <Link to="../App.js">Home</Link>
           </li>
           <li>
-            <Link to="Components/Body">Body</Link>
+            <Link to="../Body">Body</Link>
           </li>
           <li>
-            <Link to="Components/Footer">Footer</Link>
+            <Link to="../Footer">Footer</Link>
           </li>
         </NavigationLinks>
       </NavigationBar>
