@@ -7,10 +7,6 @@ const NavigationBar = styled.header`
   text-align: center;
 `;
 
-const Title = styled.h1`
-  color: palevioletred;
-`;
-
 const NavigationLinks = styled.ul`
   text-decoration: none;
   li {
