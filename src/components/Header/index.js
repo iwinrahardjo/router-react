@@ -11,9 +11,10 @@ const Title = styled.h1`
   color: blue;
 `;
 
-const NavigationLinks = styled.ul`
-  text-decoration: none;
+var NavigationLinks = styled.ul`
   li {
+    text-decoration: top-line;
+    color: green;
     display: inline-block;
     margin-right: 10px;
   }
@@ -23,7 +24,7 @@ class Header extends Component {
   render() {
     return (
       <NavigationBar>
-        <Title>ini title</Title>
+        <Title>Title</Title>
         <NavigationLinks>
           <li>
             <Link to="/">Home</Link>
