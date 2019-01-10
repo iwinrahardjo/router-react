@@ -23,19 +23,20 @@ class Header extends Component {
   render() {
     return (
       <NavigationBar>
-        <Title>Learn React</Title>
         <NavigationLinks>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="../App.js">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="Components/Body">Body</Link>
           </li>
           <li>
-            <Link to="/random">Random</Link>
+            <Link to="Components/Footer">Footer</Link>
           </li>
         </NavigationLinks>
       </NavigationBar>
     );
   }
 }
+
+export default Header;
